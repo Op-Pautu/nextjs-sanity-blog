@@ -26,7 +26,7 @@ const BlogArticle = async ({ params }: { params: { slug: string } }) => {
         <span className="text-base text-center text-primary block font-semibold tracking-wide uppercase">
           Op Pautu - Blog
         </span>
-        <span className="mt-2 block text-3xl text-center leading-8 font-bold tracking-tight sm:text-4xl">
+        <span className="mt-5 block text-3xl text-center leading-8 font-bold tracking-tight sm:text-4xl">
           {data.title}
         </span>
       </h1>
